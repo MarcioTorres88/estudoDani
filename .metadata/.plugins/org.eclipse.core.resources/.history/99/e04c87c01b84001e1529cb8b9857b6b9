@@ -1,0 +1,11 @@
+package youtu_tube_jogo;
+
+import java.awt.Rectangle;
+
+	public class RecObj extends Rectangle {
+		public RecObj(int x, int y, int width, int height) {
+			super (x,y,width,height);
+		}
+	}
+
+

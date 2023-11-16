@@ -1,0 +1,9 @@
+package youtu_tube_jogo;
+
+import java.awt.Rectangle;
+
+public class RectObj extends Rectangle {
+	public RecObj() {
+		
+	}
+}

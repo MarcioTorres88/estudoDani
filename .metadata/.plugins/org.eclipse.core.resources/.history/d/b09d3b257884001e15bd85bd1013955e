@@ -1,0 +1,31 @@
+package youtu_tube_jogo;
+
+
+
+import java.awt.Graphics;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Spawner {
+	public int  timer = 0;
+	
+	public List<RecObj> rectangles = new ArrayList<RecObj>();
+
+	public void update() {
+		timer++;
+		if(timer % 60 == 0) {
+			rectangles.add(new RecObj(0,new Random().nextInt(480-40), 40,40));
+		}
+	}
+	
+	public void render(Graphics g) {
+		for (int i = 0; i < rectangles.size();i++  ) {
+				RecObj current = rectangles.get(i);
+				g.setColor(current.color);
+				g.fillRect(current.x, current.y, current.width, current.height);
+		}
+	}
+
+
+}

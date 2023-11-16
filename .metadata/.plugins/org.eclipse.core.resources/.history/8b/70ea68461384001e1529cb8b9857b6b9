@@ -1,0 +1,7 @@
+package youtu_tube_jogo;
+
+public class Spaner {
+	public timer = 0;
+	
+	public List<Rectangle> rectangles = new ArrayList<Rectangle>();
+}

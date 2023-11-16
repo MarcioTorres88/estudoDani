@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/home/tor/.sdkman/candidates/java/11.0.19-albba" version="11.0.19.15"/>
+    <libraryInfo home="/home/tor/.sdkman/candidates/java/8.0.372-librca" version="1.8.0_372">
+        <bootpath>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/resources.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/rt.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/sunrsasign.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/jsse.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/jce.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/charsets.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/jfr.jar"/>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/ext"/>
+            <entry path="/usr/java/packages/lib/ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="/home/tor/.sdkman/candidates/java/8.0.372-librca/jre/lib/endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="/snap/eclipse/73/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047/jre" version="17.0.8.1"/>
+    <libraryInfo home="/snap/eclipse/73/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.8.v20230831-1047" version="17.0.8.1"/>
+    <libraryInfo home="/home/tor/.sdkman/candidates/java/17.0.7-graalce" version="17.0.7"/>
+</libraryInfos>
